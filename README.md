@@ -8,7 +8,7 @@ Get your secrets safely from AWS SystemsManager ParameterStore to your GitHub Ac
 jobs:
   your-job:
     steps:
-      - uses: buying-square/chamber-action@master
+      - uses: king-performance/chamber-action@master
         id: chamber
         env:
           AWS_DEFAULT_REGION: ${{ secrets.AWS_DEFAULT_REGION }}
